@@ -27,28 +27,47 @@
         android:pathData="M70,100h320a16,16 0 0 1 16,16v40h-352v-40a16,16 0 0 1 16,-16z"/>
     
     <!-- Text lines -->
-    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
-        android:x1="100" android:y1="170" android:x2="350" android:y2="170"/>
-    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
-        android:x1="100" android:y1="210" android:x2="350" android:y2="210"/>
-    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
-        android:x1="100" android:y1="250" android:x2="350" android:y2="250"/>
-    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
-        android:x1="100" android:y1="290" android:x2="280" android:y2="290"/>
+    <path
+        android:fillColor="#E8E8E8"
+        android:pathData="M100,170 H350" />
+    
+    <path
+        android:fillColor="#E8E8E8"
+        android:pathData="M100,210 H350" />
+    
+    <path
+        android:fillColor="#E8E8E8"
+        android:pathData="M100,250 H350" />
+    
+    <path
+        android:fillColor="#E8E8E8"
+        android:pathData="M100,290 H280" />
     
     <!-- Dollar accent circle -->
-    <circle android:fillColor="#42B5AF" android:cx="310" android:cy="330" android:r="24"/>
+    <path
+        android:fillColor="#42B5AF"
+        android:pathData="M310,306
+            C323.255,306 334,316.745 334,330
+            C334,343.255 323.255,354 310,354
+            C296.745,354 286,343.255 286,330
+            C286,316.745 296.745,306 310,306 Z" />
     
     <!-- Checkmark top right -->
-    <path android:strokeColor="#42B5AF" android:strokeWidth="4"
-        android:strokeLineCap="round" android:strokeLineJoin="round"
-        android:pathData="M320,130 L340,150 L365,125"/>
+    <path
+        android:strokeColor="#42B5AF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M320,130 L340,150 L365,125" />
     
     <!-- Right side: Text area accent -->
-    <rect android:fillColor="#42B5AF" android:alpha="0.15"
-        android:x="450" android:y="120" android:width="480" android:height="260"/>
+    <path
+        android:fillColor="#42B5AF"
+        android:alpha="0.15"
+        android:pathData="M450,120 H930 V380 H450 Z" />
     
     <!-- Accent line -->
-    <line android:strokeColor="#42B5AF" android:strokeWidth="8"
-        android:x1="450" android:y1="120" android:x2="450" android:y2="380"/>
+    <path
+        android:fillColor="#42B5AF"
+        android:pathData="M450,120 H458 V380 H450 Z" />
 </vector>
